@@ -4,6 +4,7 @@
 Arquivos de migração e inserção (migrations e seeds) Laravel de todas instituições bancárias do Brasil atualizados (03/09/2021) com dados extraídos do [FEBRABAN](https://portal.febraban.org.br/pagina/3164/12/pt-br/associados). Contém também a Model de Banco com todos os campos mapeados.
 
 Na seguinte estrutura:
+
 ![DER](https://github.com/andersonpereiradossantos/assets/blob/main/laravel-migration-seeds-bancos-brasileiros-der.png?raw=true)
 ##### Banco
 - id (primary key)
@@ -34,4 +35,5 @@ $banco_itau = Banco::where('codigo', '341')->first();
 ```
 # Autor
 Anderson Pereira dos Santos
+
 https://www.linkedin.com/in/andersonpereirasantos
